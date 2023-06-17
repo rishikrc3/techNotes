@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 3500;
 app.use(logger);
 app.use(express.json());
 
+//anish giri
 app.use("/", express.static(path.join(__dirname, "public")));
 
 app.use("/", require("./routes/root"));
