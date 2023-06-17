@@ -4,8 +4,8 @@
   "description": "CRUD Application ",
   "main": "server.js",
   "scripts": {
-    "start":"node server",
-    "dev":"nodemon server"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/rishikrc3/techNotes#readme",
   "dependencies": {
+    "date-fns": "^2.30.0",
     "express": "^4.18.2",
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "uuid": "^9.0.0"
   }
 }
